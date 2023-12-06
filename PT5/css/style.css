@@ -1,0 +1,32 @@
+#grupo {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#miniaturas {
+  width: 66px;
+  margin-right: 10px;
+  border: 1px solid lightgrey;
+}
+
+#miniaturas img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  width: 60px;
+}
+
+#grupo-foto-grande {
+  width: calc(90vw - 70px);
+  max-width: 400px;
+  text-align: center;
+}
+
+#foto-grande {
+  width: calc(90vw - 70px);
+  max-width: 400px;
+}
